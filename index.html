@@ -5,11 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Speech Detection</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Signika:300,600" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <div class="words" contenteditable>
+  <header class="header" data-js="header">
+    <h1 class="header__title">
+      Native Speech Detection
+    </h1>
+    <p class="header__desc">
+      Accept the microfone permition and have fun!
+      <span class="header__easteregg">OBS: Try to say dog or cat! =)</span>
+    </p>
+  </header>
+
+  <div class="words" data-js="words" contenteditable>
   </div>
 
   <script src="js/main.js"></script>

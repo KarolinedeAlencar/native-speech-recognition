@@ -3,11 +3,40 @@ html {
 }
 
 body {
-  background:#ffc600;
-  font-family: 'helvetica neue';
+   background: linear-gradient(90deg, #d0d0d0, #fab397);
+  font-family: 'Signika', sans-serif;
   font-weight: 200;
   font-size: 20px;
 }
+
+.header {
+  color: #636262;
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 0;
+  font-size: 3em;
+}
+
+.header__desc {
+  font-size: 1.2em;
+}
+
+.header__easteregg {
+  display: block;
+  font-style: italic;
+}
+
+.easteregg__title {
+  color: #fab397;
+  text-align: center;
+}
+
+.easteregg__img {
+  width: 100%;
+}
+
 
 .words {
   max-width:500px;
